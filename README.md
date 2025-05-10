@@ -3,4 +3,4 @@ This is a project by Antonio, with the contributions of Sana, Lateef, Aiman and 
 
 # About
 
-The goal of this project is to be a database for how a code might look like to accomplish a particular task, as well as give additional information on how the code works. Now, you don’t need to use ChatGPT to write the code for you!
+The goal of this project is to be a collection of code that accomplish a particular task. Now, you don’t need to use ChatGPT to write the code for you!
