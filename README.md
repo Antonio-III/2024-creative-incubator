@@ -7,4 +7,4 @@ This Github repository stores all the code that could be found on our [official 
 
 # About
 
-The goal of this project is to be a collection of code that accomplish a particular task, and to show it to the world!
+The goal of this project is to be a database for how a code might look like to accomplish a particular task, as well as give additional information on how the code works and point to resources for more information. Now, you don’t need to use ChatGPT to write the code for you!
