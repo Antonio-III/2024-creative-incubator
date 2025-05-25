@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
 
-bool isprime(int n);
+int isprime(int n);
 int nextprime(int old_prime);
+
 int main(int argc, char *argv[]){
     int n;
     printf("Enter a number: ");
@@ -19,20 +19,19 @@ int main(int argc, char *argv[]){
     return 0;
 }
 
-bool isprime(int n){
-    for (int divisor=2; divisor*divisor<=n; divisor++){
-        if (n%divisor==0){
-            return false; 
+int isprime(int n){
+    for (int divisor = 2; divisor * divisor <= n; divisor++){
+        if (!(n % divisor)){
+            return 0; 
             }
     }
-    return true;
+    return 1;
 }
 
 int nextprime(int old_prime){
-    int next_prime=old_prime+1;
-    while(isprime(next_prime)==false){
+    int next_prime = old_prime + 1;
+    while(!isprime(next_prime)){
         next_prime++;
     }
-    
     return next_prime;
 }
