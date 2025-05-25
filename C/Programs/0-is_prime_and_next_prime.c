@@ -20,10 +20,6 @@ int main(int argc, char *argv[]){
 }
 
 bool isprime(int n){
-    // the video had this bit of code that I thought was unnecessary
-    //if (n<2){
-    //	return 0;
-    //}
     for (int divisor=2; divisor*divisor<=n; divisor++){
         if (n%divisor==0){
             return false; 
